@@ -1,0 +1,11 @@
+stack=[]
+text="hello"
+
+for ch in text:
+    stack.append(ch)
+
+rev=""
+while stack:
+    rev+=stack.pop()
+
+print("Reversed:",rev)
